@@ -1,0 +1,47 @@
+h1 {
+    color: blue;
+}
+
+<style>
+div.relative {
+  position: relative;
+  width: 800px;
+  height: 800px;
+  border: 3px solid #73AD21;
+   padding: 5px;
+} 
+
+div.news {
+  position: relative;
+  top: 20px;
+  right: 0;
+  width: 99%;
+  height: auto;
+  border: 3px solid #73AD21;
+   padding: 5px;
+}
+
+div.feau {
+  position: relative;
+  top: 20px;
+  right: 0;
+ 
+  width: 60%;
+  height: 500px;
+  border: 3px solid #73AD21;
+  padding: 5px;
+}
+
+
+div.weatherandfacts {
+  position: relative;
+  display: inline-block;
+  float:left;
+  width: 25%;
+  height: auto;
+  border: 3px solid #73AD21;
+  padding: 5px;
+ 
+}
+
+</style>
